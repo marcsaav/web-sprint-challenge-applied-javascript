@@ -38,6 +38,8 @@ function Header() {
     title.textContent = "Lambda Times";
     temp.textContent = `98°`;
 
+    // Appending to DOM
+
     let headerContainer = document.querySelector('.header-container');
 
     headerContainer.append(header);
